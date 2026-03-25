@@ -33,7 +33,7 @@ DX推進担当者。Architecture Workshopの AS-IS セッションでの
 
 **Takayoshi Takaoka**  
 Evangelist & Transformation Architect, Zscaler Japan  
-[LinkedIn](https://www.linkedin.com/in/takayoshi-takaoka/)
+[LinkedIn](https://www.linkedin.com/in/takayoshi-takaoka-6001742/)
 
 ---
 
