@@ -1,4 +1,5 @@
 # Forg — 組織摩擦係数診断ツール
+<img width="1280" height="640" alt="Forg_social_preview" src="https://github.com/user-attachments/assets/431b7e3e-8fa8-4629-9fdc-6c3e7388671b" />
 
 > 「なぜゼロトラスト導入はいつも途中で止まるのか」  
 > その答えは技術ではなく、組織の中にある。
