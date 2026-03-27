@@ -1,5 +1,7 @@
 # Forg v4.1.0 Release Notes
 
+![Forg Logo](Forg_logo_brushed.png)
+
 **リリース日:** 2026年3月27日
 
 ---
