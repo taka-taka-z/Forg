@@ -471,6 +471,15 @@ function App(){
       <div className="no-print" style={{textAlign:'center',marginTop:14}}>
         <button className="btn" onClick={()=>{setSc({s1:0,s2:0,s3:0,s4:0,s5:0,l1:0,l2:0,l3:0,l4:0,l5:0,c1:0,c2:0,c4:0,lp1:0,lp2:0,lp3:0,lp4:0,lp5:0,itBudget:0,revenue:0});setTab('S');}}>🔄 リセット</button>
         <button className="btn" style={{marginLeft:8}} onClick={()=>window.print()}>🖨️ スライド用PDF出力</button>
+        <button className="btn" style={{marginLeft:8,borderColor:'var(--green)',color:'var(--green)'}} onClick={()=>{
+          const data={format:"forg-v4",customer:customer,date:new Date().toISOString().slice(0,10),
+            S:calc.S,L:calc.L,C:calc.C,Lp:calc.LP,forg:calc.forg,
+            archetype:calc.archetype,budgetRatio:calc.budgetRatio};
+          const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
+          const url=URL.createObjectURL(blob);const a=document.createElement('a');
+          a.href=url;a.download=`Forg_${customer||'unnamed'}_${data.date}.json`;a.click();
+          URL.revokeObjectURL(url);
+        }}>📤 JSON出力（Decision連携用）</button>
       </div>
     </div>}
 
