@@ -1,4 +1,5 @@
 # Forg — 組織摩擦係数診断ツール
+<img width="1430" height="680" alt="スクリーンショット 2026-04-19 22 36 42" src="https://github.com/user-attachments/assets/9dac4924-1e25-444d-8eed-3a2057b84f8a" />
 
 > 「なぜゼロトラスト導入はいつも途中で止まるのか」
 > その答えは技術ではなく、組織の中にある。
@@ -12,6 +13,9 @@
 Forg（フォルグ）は、企業のゼロトラスト推進を阻む**組織摩擦**を定量的に可視化するブラウザベースの診断ツールです。独自指標「組織摩擦係数 F_org」をベースに、停滞理由の言語化と優先アクションを即座に導出します。
 
 ## 主な機能
+<img width="1311" height="602" alt="スクリーンショット 2026-04-19 22 38 45" src="https://github.com/user-attachments/assets/5f99ea37-3e17-4bd7-a686-b6adba2b403e" />
+<img width="1311" height="376" alt="スクリーンショット 2026-04-19 22 39 04" src="https://github.com/user-attachments/assets/f356f916-4803-481d-b025-5961d988df3e" />
+<img width="1311" height="468" alt="スクリーンショット 2026-04-19 22 39 18" src="https://github.com/user-attachments/assets/c49d1cc2-8c1d-43b9-8646-c1b211fd6969" />
 
 - **F_org スコア算出** — 4変数（Structure / Legacy / Crisis / Leadership）から摩擦係数を計算
 - **矛盾検出ロジック** — 回答間の整合性を自動チェック（例：「変革意志は高いがPoC失敗を許容しない」）
